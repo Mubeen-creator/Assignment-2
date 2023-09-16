@@ -5,7 +5,7 @@ let message = `Hello ${personName},would you like to learn some typescript today
 console.log(message);
 console.log(`\t \n Q# 3 \t\n`);
 //Q3 
-let Name = "Arsalan Joiya";
+let Name = "Mubeen";
 console.log("uppercase:", Name.toUpperCase());
 console.log("lowercase:", Name.toLowerCase());
 //console.log("Titlecase:", Name.toTitlecase());
@@ -154,7 +154,7 @@ console.log(`\t \n Q# 16 \t\n`);
 console.log('Good News ! We have bigger dinner table');
 //Add one new guest to the beginning of your array. Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. 
 guest.unshift('GM'); //added to start
-guest.splice(2, 0, 'Arsal'); //added to middle
+guest.splice(2, 0, 'Mubeen'); //added to middle
 guest.push('Ayaz'); //added to end
 // Print a new set of invitation messages, one for each person in your list. 
 //All guests are invited with single print message
@@ -252,7 +252,7 @@ console.log("List of countries:", countries);
 console.log(`\t\n Q#21 \t\n`);
 let classes = [
     {
-        name: 'Srsal',
+        name: 'MUbeen',
         class: '10th',
         Roll_No: '11',
     },
