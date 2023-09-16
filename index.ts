@@ -11,11 +11,11 @@ console.log("lowercase:", Name.toLowerCase());
 //console.log("Titlecase:", Name.toTitlecase());
 console.log(`\t \n Q# 4 \t\n`);
 //Q#4
-let Author = "ABX";
+let Author = "Mubeen";
 console.log(`Once ${Author} said that,"Man is not made for defeat"`);
 console.log(`\t \n Q# 5 \t\n`);
 //Q#5
-let famous_person = "Steve Jobs";
+let famous_person = "Mark zuckerberg";
 let Message = "Stay hungry, stay foolish.";
 console.log(`Once ${famous_person} said that, '${Message}'`);
 console.log(`\t \n Q# 6 \t\n`);
@@ -53,7 +53,7 @@ let FavNumber2 = 'Favoruite number';
 console.log(`"${FavNumber1}" is my ${FavNumber2}`);
 console.log(`\t \n Q# 11 \t\n`);
 //Q#11
-let Friends = ['Tana', 'Kashi', 'Ahmad', 'Ali'];
+let Friends = ['Arsalan', 'GM', 'Aftab', 'Sajawal'];
 // Printing each name using index values
 console.log(`\t \n Q-11=method 1: to print message \t\n`);
 console.log(Friends[0]);
@@ -67,7 +67,7 @@ for (let i = 0; i <= 3; i++) {
 }
 console.log(`\t \n Q# 12 \t\n`);
 //Q#12
-let Friendss = ['Tana', 'Kashi', 'Ahmad', 'Ali'];
+let Friendss = ['Sher', 'Kashif', 'Tayyab', 'Adil'];
 // Using index value
 console.log(`\t \n Q-12-using index value Method to print message \t\n`);
 console.log('Hello,', Friends[0], 'have a nice day!');
@@ -187,7 +187,7 @@ console.log(`${guest}[empty array]`);
 //Q#18
 console.log(`\t\n Q#18 \t\n`);
 // Store the locations in a array. Make sure the array is not in alphabetical order.
-let PlaceToVisit = ['Berlin', 'Dubai', 'Essen', 'Capetown', 'Athens'];
+let PlaceToVisit = ['Paris', 'Dubai', 'Taj Mahal', 'New York, 'Athens'];
 //Print your array in its original order.
 console.log('Origional order;');
 console.log(PlaceToVisit);
@@ -227,7 +227,7 @@ console.log("sorted in reverse Order:", Array123);
 //Q#19
 //Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
 console.log(`\t\n Q#19 \t\n`);
-let guestes = ['Arsal', 'Asif', 'Mohsin', 'Messi'];
+let guestes = ['Arsal', 'Haseeb', 'ALI sher', 'Zaboo'];
 let numberofguest = guestes.length;
 if (numberofguest === 4) {
     console.log('Sorry, We do not have sitting place for 4 people');
@@ -254,7 +254,7 @@ let classes = [
     {
         name: 'MUbeen',
         class: '10th',
-        Roll_No: '11',
+        Roll_No: '45',
     },
     {
         name: 'arsal',
@@ -264,7 +264,7 @@ let classes = [
     {
         name: 'basit',
         class: '12th',
-        Roll_No: '13',
+        Roll_No: '25',
     }
 ];
 console.log("class_details:", classes);
@@ -278,9 +278,9 @@ console.log(`Corrected the error: ${numArray}`);
 //Q#23
 //
 console.log(`\t\n Q#23 \t\n`);
-let car = 'subaru';
+let car = 'Rolls Royas';
 console.log("Is car == 'subaru'? I predict True");
-console.log(car == 'subaru');
+console.log(car == 'Rolls Royas');
 console.log("Is car == 'Hyundai'? I predict False.");
 console.log(car == 'Hyundai');
 console.log("Is car === 'Subaru'? I predict False.");
